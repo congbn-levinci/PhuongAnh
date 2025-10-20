@@ -28,6 +28,50 @@
             height: 50%;
         }
     </style>
+    <style>
+        /* Responsive adjustments for small screens */
+        @media (max-width: 576px) {
+            #castle {
+                transform: scale(0.75);
+                transform-origin: center top;
+                height: 100vh;
+                overflow: hidden;
+            }
+            #rose-t svg {
+                width: 90vw;
+                height: auto;
+            }
+            .formLetter {
+                width: 90vw !important;
+                height: auto !important;
+            }
+            .textLetter h2 {
+                font-size: 22px !important;
+            }
+            .textLetter .contentLetter {
+                font-size: 16px !important;
+                padding: 0 16px !important;
+            }
+            #text-click {
+                font-size: 28px !important;
+            }
+            .mewmew1,
+            .mewmew2 {
+                width: 60px !important;
+            }
+            .heartAnimation {
+                width: 120px !important;
+            }
+        }
+
+        @media (max-width: 360px) {
+            #castle {
+                transform: scale(0.65);
+            }
+            .textLetter h2 { font-size: 20px !important; }
+            .textLetter .contentLetter { font-size: 15px !important; }
+        }
+    </style>
 
     <!-- aa2 -->
     <style>
